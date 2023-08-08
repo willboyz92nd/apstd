@@ -1,0 +1,7 @@
+{
+  "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
+  "c:chromium_ingots": "techreborn:chrome_ingot",
+  "c:sapphires": "techreborn:sapphire_gem",
+  "c:titanium_ingots": "techreborn:titanium_ingot",
+  "c:rubies": "techreborn:ruby_gem"
+}

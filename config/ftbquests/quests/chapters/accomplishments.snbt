@@ -1,0 +1,129 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "accomplishments"
+	group: "1B82A7C39EC76006"
+	icon: "botania:hourglass"
+	id: "4F6D1D79DFC26F3F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["22232FE944F400A5"]
+			description: ["How and why?"]
+			hide: true
+			id: "7D7156978C65D7B0"
+			invisible: true
+			rewards: [
+				{
+					count: 3
+					id: "1B311F1C13CAD832"
+					item: "mythicmetals:midas_gold_block"
+					title: "More Midas Gold!"
+					type: "item"
+				}
+				{
+					command: "/say @p has managed to make a max power midas gold sword."
+					exclude_from_claim_all: true
+					id: "0D2875E2B192F96D"
+					ignore_reward_blocking: true
+					player_command: false
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "5E147E8AB57FD62D"
+				item: {
+					Count: 1b
+					id: "mythicmetals:gilded_midas_gold_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Lord of Greed"
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			description: ["The Midas Gold Sword can be upgraded with Midas Gold Blocks reaching a max of 12 damage. While this might not be the most powerful sword in the world a max power Midas Gold Sword is the ultimate flex."]
+			id: "22232FE944F400A5"
+			rewards: [{
+				id: "71083564AF1C4DBE"
+				item: "mythicmetals:midas_gold_block"
+				title: "Midas gold!"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A063D5C01C729B7"
+				item: {
+					Count: 1b
+					id: "mythicmetals:midas_gold_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Greed Apprentice"
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			icon: "mysticalagriculture:awakened_supremium_ingot"
+			id: "18192CC7E2CEBD8D"
+			subtitle: "Obtain a full set of Awakned Supremium armor."
+			tasks: [
+				{
+					id: "21BEBC44F3EE5DA2"
+					item: {
+						Count: 1b
+						id: "mysticalagriculture:awakened_supremium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "331AD58460C8C4BF"
+					item: {
+						Count: 1b
+						id: "mysticalagriculture:awakened_supremium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2275D842B455FF4D"
+					item: {
+						Count: 1b
+						id: "mysticalagriculture:awakened_supremium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03AA29FE7DE2647D"
+					item: {
+						Count: 1b
+						id: "mysticalagriculture:awakened_supremium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The strongest metal on earth"
+			x: -6.5d
+			y: -1.0d
+		}
+	]
+	title: "Accomplishments"
+}

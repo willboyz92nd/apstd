@@ -1,0 +1,155 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "ancient_beast"
+	group: "1B82A7C39EC76006"
+	hide_quest_until_deps_visible: true
+	icon: "bosses_of_mass_destruction:brimstone_nectar"
+	id: "3264C93FE93111B3"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "33304F549C94548C"
+			tasks: [{
+				id: "08DCF6545E7781A2"
+				title: "Beast slaying"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33304F549C94548C"]
+			id: "40A5406BEF5D9850"
+			subtitle: "Void lilies point the way."
+			tasks: [{
+				id: "4ABFF4120AA523C1"
+				item: "bosses_of_mass_destruction:void_thorn"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["33304F549C94548C"]
+			id: "78C91D63A77FCDAD"
+			subtitle: "Locate its structure within the nether."
+			tasks: [{
+				id: "6CE56CD92FECA5AC"
+				item: "bosses_of_mass_destruction:blazing_eye"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["33304F549C94548C"]
+			hide: true
+			id: "69650EA9ED032290"
+			subtitle: "Place an eye of ender into an Obsidian Altar."
+			tasks: [{
+				id: "173E55897F5300C3"
+				item: "bosses_of_mass_destruction:obsidian_heart"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["33304F549C94548C"]
+			id: "730A6810B1953522"
+			subtitle: "Follow soul stars until it snows, fill the spots with remaining stars."
+			tasks: [{
+				id: "179CBBDDFFF8FF4D"
+				item: "bosses_of_mass_destruction:ancient_anima"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"730A6810B1953522"
+				"78C91D63A77FCDAD"
+			]
+			hide: true
+			id: "797B09D5D1A31E16"
+			tasks: [{
+				id: "1DA3616EF5079797"
+				item: "bosses_of_mass_destruction:levitation_block"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"78C91D63A77FCDAD"
+				"69650EA9ED032290"
+			]
+			hide: true
+			id: "400A092815F706CD"
+			tasks: [{
+				id: "116354D2A70F8148"
+				item: "bosses_of_mass_destruction:monolith_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"40A5406BEF5D9850"
+				"730A6810B1953522"
+			]
+			hide: true
+			id: "7B24AE35FDC1476F"
+			tasks: [{
+				id: "501BBDEA7107824F"
+				item: "bosses_of_mass_destruction:charged_ender_pearl"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"69650EA9ED032290"
+				"40A5406BEF5D9850"
+			]
+			hide: true
+			id: "6397CB7EB0524110"
+			tasks: [{
+				id: "10EB368DDADF08F3"
+				item: {
+					Count: 1b
+					id: "bosses_of_mass_destruction:earthdive_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"730A6810B1953522"
+				"69650EA9ED032290"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "7FE94CDFF2A5D5CB"
+			tasks: [{
+				id: "48D13DE6B4D60FE3"
+				item: "bosses_of_mass_destruction:mob_ward"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+	]
+	title: "Ancient Beast"
+}

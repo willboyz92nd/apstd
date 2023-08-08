@@ -1,0 +1,9 @@
+
+[General]
+	#If you don't like the quest mode to obtain the miner certificate
+	#You can turn it off from here!
+	quest_mode = true
+	#You can change the required amount of blocks you need to break to unseal the miner certificate.
+	#Range: 1 ~ 20000
+	required_amount = 400
+
