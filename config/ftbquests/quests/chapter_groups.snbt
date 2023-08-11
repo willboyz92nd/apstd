@@ -1,3 +1,6 @@
 {
-	chapter_groups: [{ id: "1B82A7C39EC76006", title: "Challenges" }]
+	chapter_groups: [
+		{ id: "7337488CAC90C09A", title: "Getting Started" }
+		{ id: "1B82A7C39EC76006", title: "Challenges" }
+	]
 }

@@ -9,10 +9,15 @@
 			"{data:{Count:1b,id:\"minecraft:andesite\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 			"{data:{Count:1b,id:\"spectrum:stratine_ore\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 			"{data:{Count:1b,id:\"minecraft:iron_helmet\",tag:{Damage:0},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"minecraft:polished_deepslate\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+			"{data:{Count:1b,id:\"minecraft:polished_deepslate\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"minecraft:diorite\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{mode:\"NOT_SET\",type:\"roughlyenoughitems:time\"}",
+			"{data:{Count:1b,id:\"minecraft:spruce_planks\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
 		],
 		"hiddenFavorites": [],
-		"displayHistory": [],
+		"displayHistory": [
+			"{DisplayHistoryCategory:\"minecraft:plugins/crafting\",DisplayHistoryContains:1b,DisplayHistoryData:{REIRecipeType:\"Shaped\",RecipeHeight:3,RecipeWidth:3,input:[[],[{Count:1b,id:\"mysticalagriculture:nether_quartz_essence\",type:\"minecraft:item\"}],[],[{Count:1b,id:\"mysticalagriculture:stone_essence\",type:\"minecraft:item\"}],[{Count:1b,id:\"mysticalagriculture:stone_essence\",type:\"minecraft:item\"}],[{Count:1b,id:\"mysticalagriculture:stone_essence\",type:\"minecraft:item\"}],[],[{Count:1b,id:\"mysticalagriculture:stone_essence\",type:\"minecraft:item\"}]],location:\"mysticalagriculture:essence/minecraft/diorite\",output:[[{Count:16b,id:\"minecraft:diorite\",type:\"minecraft:item\"}]]},DisplayHistoryUUID:\"00465eb7-3286-4c7c-af4f-4e12676834c2\"}"
+		],
 		// Declares whether cheating mode is on.
 		"cheating": true,
 		"favoritesEnabled": true,

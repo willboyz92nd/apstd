@@ -71,58 +71,108 @@
 			y: -3.5d
 		}
 		{
-			icon: "mysticalagriculture:awakened_supremium_ingot"
-			id: "18192CC7E2CEBD8D"
-			subtitle: "Obtain a full set of Awakned Supremium armor."
+			id: "5C7F0B250E3FDCF2"
+			subtitle: "I shall stand my ground till the end of time."
 			tasks: [
 				{
-					id: "21BEBC44F3EE5DA2"
+					id: "610DE0B658C19F60"
 					item: {
 						Count: 1b
-						id: "mysticalagriculture:awakened_supremium_helmet"
+						id: "spectrum:bedrock_helmet"
 						tag: {
-							Damage: 0
+							Enchantments: [{
+								id: "minecraft:projectile_protection"
+								lvl: 5s
+							}]
 						}
 					}
 					type: "item"
 				}
 				{
-					id: "331AD58460C8C4BF"
+					id: "66A29DDBD4AB53C0"
 					item: {
 						Count: 1b
-						id: "mysticalagriculture:awakened_supremium_chestplate"
+						id: "spectrum:bedrock_chestplate"
 						tag: {
-							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 5s
+							}]
 						}
 					}
 					type: "item"
 				}
 				{
-					id: "2275D842B455FF4D"
+					id: "0F3E323D433B4EED"
 					item: {
 						Count: 1b
-						id: "mysticalagriculture:awakened_supremium_leggings"
+						id: "spectrum:bedrock_leggings"
 						tag: {
-							Damage: 0
+							Enchantments: [{
+								id: "minecraft:blast_protection"
+								lvl: 5s
+							}]
 						}
 					}
 					type: "item"
 				}
 				{
-					id: "03AA29FE7DE2647D"
+					id: "4739F5B2F8C03A69"
 					item: {
 						Count: 1b
-						id: "mysticalagriculture:awakened_supremium_boots"
+						id: "spectrum:bedrock_boots"
 						tag: {
-							Damage: 0
+							Enchantments: [{
+								id: "minecraft:fire_protection"
+								lvl: 5s
+							}]
 						}
 					}
 					type: "item"
 				}
 			]
-			title: "The strongest metal on earth"
-			x: -6.5d
-			y: -1.0d
+			title: "An Immoveable Force"
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			id: "7FB576738DB3B29B"
+			subtitle: "BEHOLD THE POWER OF AN ANGEL!"
+			tasks: [
+				{
+					id: "47D1032D51390AAB"
+					item: "arclight:angel_helmet"
+					type: "item"
+				}
+				{
+					id: "574225F5B496A171"
+					item: "arclight:angel_chestplate"
+					type: "item"
+				}
+				{
+					id: "205CA7FC4F490609"
+					item: "arclight:angel_leggings"
+					type: "item"
+				}
+				{
+					id: "2FDA262BDDA321EB"
+					item: "arclight:angel_boots"
+					type: "item"
+				}
+			]
+			title: "An Unstoppable Object"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			id: "63FB9CB2A8AE13C2"
+			tasks: [{
+				id: "1BB3B4BDBD0A833A"
+				title: "More to come"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -5.5d
 		}
 	]
 	title: "Accomplishments"

@@ -1,0 +1,62 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "intro"
+	group: "7337488CAC90C09A"
+	id: "14210642798DF056"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"Welcome to Interpolation! Before you get started I would like to provide some insight into my thought process developing this pack."
+			""
+			"I wanted to create a pack where progression is present but not enforced,"
+			"you should be able to play most of the pack uninterrupted but you may also noticed alot of stronger items have strange crafting trees(ie: the Angel armor set) this is to leave something to work towards for those who enjoy the grind while also preventing op gear being obtained day one."
+			""
+			"I also wanted to add mods that would allow for lots of speical events and buildings which is why mods like Immersive Portals and Create are here  dispite only being obtainable by admins as of now."
+			""
+			"Lastly, playing in part to the 1st point, there will be little to no quest detailing mods or their content unlike other kitchen sink packs of this type. This is to give players the freedom to do their own research, exploration or even contact and trade with other players for certain items."
+			""
+			"That's it for this though, hope you all enjoy the pack we've put together - Frizz"
+			""
+			""
+			"Pearl Sprites - Taz"
+			"Mod Selection - Birbiole, Frizz1on/Will"
+			"Scripts - Frizz1on/Will"
+			"Suggestions/Balancing - Hell, Grime"
+			"Mascot/Emotional Support - Terna/Ternakit/Ternashit/Pornastar/Pornafeet/Bandagethinge"
+		]
+		id: "65D306B3DF93945D"
+		rewards: [
+			{
+				id: "46852DCFF0FA7F10"
+				item: "spectrum:freigeist"
+				type: "item"
+			}
+			{
+				auto: "invisible"
+				command: "/give @p written_book{pages:['{\"text\":\"Hello reader, I hope this book finds you well. You may be wondering where you are and why you\\'re there. All you need to know is that you and many others have been personally picked to weed out a seed of corruption that wandered into this realm by accident.\"}','{\"text\":\"This seed could be anywhere and even somewhere within a sub-realm I trust you to locate and deal with it and to help I\\'ve given you an angel drop. This will drastically increase your power after a charge up but comes with the risk of corrupting your soul \"}','{\"text\":\"should you receive fatal damage while this is active. More may be obtained later on, but I strongly suggest you only drink it when you really need to power up and remember that it needs a minute to power up.\"}'],title:\"...\",author:\"K`i`er\",generation:3}"
+				id: "29009865E242255A"
+				player_command: false
+				type: "command"
+			}
+			{
+				id: "7596D2DF6D20BDFD"
+				item: {
+					Count: 1b
+					id: "ultimine_addition:miner_certificate"
+					tag: { }
+				}
+				type: "item"
+			}
+		]
+		tasks: [{
+			id: "44C7D3F494366495"
+			title: "Info"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Intro"
+}
